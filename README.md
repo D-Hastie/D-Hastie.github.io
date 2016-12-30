@@ -1,4 +1,4 @@
-d§astie.space
+dhastie.space
 d-hastie.github.io
 
 This webpage uses the Jekyll theme 'cayman' 
