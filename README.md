@@ -1,5 +1,6 @@
 dhastie.space
 d-hastie.github.io
 
-This webpage uses the Jekyll theme 'cayman' 
-Alterations will be made in due time.
+Functional CV Webpage. Initially worked from w3 'cv template'. 
+Changes and adjustments are being progressively made. Work In Progress.
+
