@@ -364,3 +364,10 @@ tr.spaceUnder > td
 {
   padding-bottom: -5px;
 }
+
+/*Mobile Div*/
+@media only screen and (max-device-width : 480px) {
+    div {
+        position: relative;
+    }
+}
