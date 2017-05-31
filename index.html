@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
 <style>
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
 html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 </style>
 <body class="w3-light-grey">
@@ -22,7 +25,7 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
   <div class="w3-row-padding">
 	
 	<!-- Left Column -->
-    <div class="w3-third" style="position:fixed" >
+    <div class="w3-third" style="position:relative" >
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
@@ -48,7 +51,7 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 					 <i class="fa fa-chevron-right w3-text-kent-blue"> </i> Python &nbsp; &nbsp; 
 				  </td>
 				  <td style="font-size:13px">
-					  <a href="https://github.com/D-Hastie/AmazonTracker" target="github.com/D-Hastie/AmazonTracker"> <i class="fa fa-external-link-square w3-text-kent-blue"></i> </a>  Python Project
+					  <a href="https://github.com/D-Hastie/AmazonTracker" target="github.com/D-Hastie/AmazonTracker"><i class="fa fa-external-link-square w3-text-kent-blue"></i></a> Python Project
 				  </td>
 			 </tr>
 			 <tr class="spaceUnder">
@@ -56,7 +59,7 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 					 <i class="fa fa-chevron-right w3-text-kent-blue"></i> C++ &nbsp; &nbsp;
 				 </td>
 				 <td style="font-size:13px">
-					 <a href="https://github.com/D-Hastie/EulerProblems" target="github.com/D-Hastie/EulerProblems"><i class="fa fa-external-link-square w3-text-kent-blue"></i> </a> C++ Projects
+					 <a href="https://github.com/D-Hastie/EulerProblems" target="github.com/D-Hastie/EulerProblems"><i class="fa fa-external-link-square w3-text-kent-blue"></i></a> C++ Projects
 				 </td>
 			 </tr>
 			 <tr class="spaceUnder">
@@ -64,7 +67,7 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
 					 <i class="fa fa-chevron-right w3-text-kent-blue"></i> LaTeX  &nbsp; &nbsp; 
 				 </td>
 				 <td style="font-size:13px">
-					<a href="./D-Hastie-Curriculum-Vitae.pdf" download="D-Hastie-Curriculum-Vitae.pdf" target="_blank"><i class="fa fa-file-pdf-o w3-text-kent-blue"></i></a>  CV written in LaTeX 
+					<a href="./D-Hastie-Curriculum-Vitae.pdf" download="D-Hastie-Curriculum-Vitae.pdf" target="_blank"><i class="fa fa-file-pdf-o w3-text-kent-blue"></i></a> CV written in LaTeX 
 				 </td>
 			 </tr>
 			 <tr class="spaceUnder">
@@ -99,7 +102,7 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
           <div class="w3-container">
             <h5 class="w3-opacity" style="font-weight: bold;">University of Kent, Canterbury</h5>
             <h6 class="w3-text-kent-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2016</h6>
-            <h6 class="w3-text-grey" >MSc / Physics</h6>
+            <h6 class="w3-text-grey" >MSc | Physics</h6>
 			<p class="w3-text-grey">Research into the formation of stars using analytical techniques on data produced by a hydrodynamic Fortran model. The research is centred around modelling different accretion scenarios in early proto stellar formation and to find any difference in evolutionary tracks across a range of stellar masses. The research is incremental to pre-existing code and offered novel techniques in making comparisons between modelled and observational data. The research employed multiple analytical tools to find correlation and points of significant interest. </p>
 			<a href="./Thesis-Final.pdf" download="D-Hastie-Thesis" target="_blank" class="w3-text-kent-blue" style="font-size:13px"><i class="fa fa-file-pdf-o  "></i></a> <span class="w3-text-grey" style="font-size:13px"> Thesis Download </span>
 			<hr>
@@ -107,7 +110,7 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
           <div class="w3-container">
             <h5 class="w3-opacity" style="font-weight: bold;">University of Kent, Canterbury </h5>
             <h6 class="w3-text-kent-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2015</h6>
-            <h6 class="w3-text-grey">BSc / Physics</h6> 
+            <h6 class="w3-text-grey">BSc | Physics <span class="w3-text-grey" style="font-size:14px"> (2:1 Hons)<span></h6>
 			<p class="w3-text-grey">A comprehensive course covering the many aspects of physics from thermodynamics to space systems. Each year had an acompanying laboratory module involving replicating renowned experiments and producing professional scientific reports detailing the results. Final exams focused on testing problem solving ability and adapting fundamental physics to diverse scenarios. The exams often required incorporating knowledge and techniques from other fields of physics.  </p>
 			<a href="./D-Hastie-Modules.pdf" download="D-Hastie-Modules" target="_blank" class="w3-text-kent-blue" style="font-size:13px"><i class="fa fa-file-pdf-o"></i></a>  <span class="w3-text-grey" style="font-size:13px"> Module Breakdown </span>
             <hr>
@@ -226,12 +229,12 @@ html,body,h1,h2,h3,h4,h5,h6,h7 {font-family: "Roboto", sans-serif}
     
          <div class="w3-center">
            <span class="w3-tag demodots w3-border w3-transparent w3-hover-kent-blue" onclick="currentDiv(1)"></span>
-           <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-           <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
-		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
-		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+           <span class="w3-tag demodots w3-border w3-transparent w3-hover-kent-blue" onclick="currentDiv(2)"></span>
+           <span class="w3-tag demodots w3-border w3-transparent w3-hover-kent-blue" onclick="currentDiv(3)"></span>
+		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-kent-blue" onclick="currentDiv(4)"></span>
+		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-kent-blue" onclick="currentDiv(5)"></span>
+		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-kent-blue" onclick="currentDiv(6)"></span>
+		   <span class="w3-tag demodots w3-border w3-transparent w3-hover-kent-blue" onclick="currentDiv(7)"></span>
          </div>
        <!--End slide buttons container -->
        </div>
